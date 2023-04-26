@@ -1,0 +1,42 @@
+{
+	"compilerOptions": {
+		"strict": true,
+		"target": "ESNext",
+		"module": "ESNext",
+		"moduleResolution": "node",
+		"allowSyntheticDefaultImports": true,
+		"esModuleInterop": true,
+		"types": [
+			"vite/client"
+		],
+		"outDir": "dist",
+		"forceConsistentCasingInFileNames": true,
+		"noEmit": true,
+		"noImplicitAny": true,
+		"noImplicitThis": true,
+		"noImplicitReturns": true,
+		"noFallthroughCasesInSwitch": true,
+		"isolatedModules": true,
+		"skipLibCheck": true,
+		"baseUrl": "./",
+		"rootDirs": [
+			"./source"
+		],
+		"paths": {
+			"@/*": [
+				"./source/*"
+			],
+			"$/*": [
+				"./*"
+			]
+		},
+		"resolveJsonModule": true
+	},
+	"include": [
+		"./source",
+		"./vite.config.js"
+	],
+	"exclude": [
+		"./node_modules"
+	]
+}

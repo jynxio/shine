@@ -1,0 +1,3 @@
+## Idea-shine
+
+Status: 🚧
